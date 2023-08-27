@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:white; 
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    background: rgba(91, 243, 225, 0.701);
+}
+
+.logo{
+    margin-left: 30px;
+}
+
+#nav-names{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0px 80px;
+}
+#nav-names li{
+    list-style: none;
+    padding: 10px;
+    font-size: 20px;
+    font-weight:550;
+    font-family: sans-serif;
+    cursor: pointer;
+    color: black;
+}
+#nav-names a{
+    text-decoration: none;
+
+}
+#nav-names li:hover{
+    color: rgb(65, 109, 181);
+}
+/* hero section start here */
+
+.main-div-hero{
+    background-color:rgba(244,248,247,255); 
+}
+.hero{
+    background: url('./img/hero11.png');
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.text{
+    position: absolute;
+    left:700px;
+    top: 200px;
+    text-align:justify;
+}
+.text h1{
+    font-size: 60px;
+}
+.text p{
+    padding-right: 50px;
+}
+
+.button-hero{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: beige;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    box-shadow: 1px 1px 10px black;
+}
+.button-hero:hover{
+    background-color: black;
+    color: White;
+}
+
+/* features section */
+
+#main{
+    margin-top: 20px;
+    font-weight: 100;
+}
+
+.mainfeaturesection{
+
+}
+
+.mainfeaturesection h1{
+    text-align: center;
+}
+.mainfeaturesection p{
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+
+.featuresection{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.div1{
+    height: 200px;
+    width: 300px;
+    border-top: 4px solid red;
+    border-radius: 10px;
+    background-color: white;
+    margin-left: 150px;
+    box-shadow: 1px 4px 5px black;
+    background-color: rgb(231, 239, 247);
+}
+.div2{
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: white;
+    border-top: 4px solid yellow;
+    margin-bottom: 20px;
+    box-shadow: 1px 4px 5px black;
+    background-color: rgb(231, 239, 247);
+}
+.div3{
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    margin-right: 20px;
+    background-color: white;
+    border-top: 4px solid blue;
+    box-shadow: 1px 4px 5px black;
+    background-color: rgb(231, 239, 247);
+}
+.div4{
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    margin-right: 150px;
+    background-color: white;
+    border-top: 4px solid black;
+    box-shadow: 1px 4px 5px black;
+    background-color: rgb(231, 239, 247);
+}
+
+.div1 h2{
+    text-align: center;
+    padding: 10px;
+}
+.div1 p{
+    text-align: center;
+    padding: 10px;
+    font-family: sans-serif;
+}
+.div2 h2{
+    text-align: center;
+    padding: 10px;
+}
+.div2 p{
+    text-align: center;
+    padding: 10px;
+    font-family: sans-serif;
+}
+.div3 h2{
+    text-align: center;
+    padding: 10px;
+}
+.div3 p{
+    text-align: center;
+    padding: 10px;
+    font-family: sans-serif;
+}
+.div4 h2{
+    text-align: center;
+    padding: 10px;
+}
+.div4 p{
+    text-align: center;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+/* about us start */
+
+.About-us{
+    display: flex;
+    background-color: rgba(244,248,247,255);
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-part{
+    padding-left: 50px;
+    margin-right: 80px;
+}
+.text-part h1{
+    font-family: sans-serif;
+    padding-bottom: 10px;
+}
+.text-part h2{
+    font-family: sans-serif;
+    padding-bottom: 10px;
+}
+.text-part p{
+    font-family: sans-serif;
+    text-align: justify;
+    padding-bottom: 40px;
+}
+
+.aboutus-button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: beige;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    box-shadow: 1px 1px 10px black;
+}
+.aboutus-button:hover{
+    background-color: black;
+    color: White;
+}
+.images{
+    padding-top: 20px;
+    padding-right: 10px;
+}
+.images img{
+    border-radius: 20px;
+    filter: drop-shadow(10px 10px 10px black);
+}
+
+.services{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.serv1{
+    border: 2px solid black;
+    margin-left: 10px;
+    height: 200px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.2901960784313726);
+    box-shadow: 1px 4px 5px black;
+}
+
+.serv2{
+    border: 2px solid black;
+    margin: 0px 10px 0px 10px;
+    height: 200px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.2901960784313726);
+    box-shadow: 1px 4px 5px black;
+}
+.serv3{
+    border: 2px solid black;
+    margin-right: 10px;
+    height: 200px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.2901960784313726);
+    box-shadow: 1px 4px 5px black;
+}
+
+.serv4{
+    border: 2px solid black;
+    margin-left: 10px;
+    height: 200px;
+    width: 400px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 4px 5px black;
+    background-color: rgba(0, 0, 0, 0.2901960784313726);
+}
+
+.serv5{
+    border: 2px solid black;
+    margin: 0px 10px 0px 10px;
+    height: 200px;
+    width: 400px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 4px 5px black;
+    background-color: rgba(0, 0, 0, 0.2901960784313726);
+}
+.serv6{
+    border: 2px solid black;
+    margin-right: 10px;
+    height: 200px;
+    width: 400px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 4px 5px black;
+    background-color: rgba(0, 0, 0, 0.2901960784313726);
+}
+
+.serv1 h2, 
+.serv2 h2, 
+.serv3 h2, 
+.serv4 h2, 
+.serv5 h2, 
+.serv6 h2{
+    text-align: center;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+}
+.serv1 p, 
+.serv2 p, 
+.serv3 p, 
+.serv4 p, 
+.serv5 p, 
+.serv6 p{
+    text-align: justify;
+}
+
+.main-services{
+    text-align: center;
+    
+}
+.main-services h1{
+    padding: 20px 20px;
+    margin: 10px 0 20px 0;
+}
+
+footer{
+    margin-top: 20px;
+    width: 100vw;
+    height: 200px;
+    background-color: black;
+    position: absolute;
+}
+.footer-main{
+    margin-top: 30px;
+}
+.footer-menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+    position: relative;
+}
+.footer-menu a{
+    text-decoration: none;
+    color: white;
+}
+.outro{
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+
